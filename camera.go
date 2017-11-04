@@ -194,6 +194,8 @@ func (cam *Camera) GrabFrame() image.Image {
 	}
 
 	switch cam.config.Encoding {
+        case "YUV 4:2:2 (YUYV)":
+                fallthrough
 	case "YUYV 4:2:2":
 		fallthrough
 	case "YUYV":

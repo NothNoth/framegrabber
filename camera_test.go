@@ -2,7 +2,7 @@ package framegrabber_test
 
 import (
 	"fmt"
-	"framegrabber"
+	"github.com/NothNoth/framegrabber"
 	"image/jpeg"
 	"os"
 	"testing"
